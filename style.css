@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(Butterfly.webp);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.header {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: auto;
+  height: 75px;
+  margin: auto;
+  padding: 3px;
+}
+.header img {
+  border: 2px solid palevioletred;
+  border-radius: 50%;
+}
+.navbar {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  margin-left: 200px;
+  text-decoration: none;
+}
+.navbar ul:hover {
+  color: palevioletred;
+}
+.navbar ul li {
+  text-decoration: none;
+  display: inline-block;
+  list-style: none;
+  margin: 4px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+p {
+  margin-bottom: 100px;
+  text-align: left;
+  padding: 30px 200px;
+}
+.greet a{
+    display: inline-block;
+  text-align: left;
+  padding: 10px 40px;
+  transform: translatey(-190px);
+  margin-bottom: 200;
+  border: 2px solid palevioletred;
+  border-radius: 6px;
+  margin-left: 250px;
+  margin-top: 20px;
+  background-color: palevioletred;
+}
+
+.hello {
+  color: red;
+  font-size: 6rem;
+  text-transform: uppercase;
+  margin-bottom: 80px 90px;
+}
+.greet span {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.greet h3 {
+  text-align: left;
+  padding: 30px 200px;
+  font-size: 3rem;
+  /* margin-bottom: 100px; */
+  transform: translatey(-150px);
+}
+.zuzu img{
+width: 500px;
+height: 500px;
+padding: 20px;
+border: 2px solid palevioletred;
+border-radius: 50%;
+margin-left: 1000px;
+transform: translateY(-400px);
+}
